@@ -87,10 +87,11 @@ export default function HeroSection() {
 
         {/* CTA Button */}
         <motion.a
-          href="https://cal.com"
+          //   href="https://cal.com/onish12"
+          href="/book"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transform transition duration-300 hover:scale-105"
+          className="bg-gradient-to-r from-red-400 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transform transition duration-300 hover:scale-105"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, ease: 'easeOut' }}

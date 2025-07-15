@@ -118,9 +118,9 @@ export default function HowItWorks() {
         <div className="mt-10">
           <a
             href="https://cal.com/securemyride"
-            className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full text-white font-bold"
+            className="bg-gradient-to-r from-red-400 to-blue-500 hover:bg-blue-700 px-8 py-4 rounded-full text-white font-bold"
           >
-            Schedule Your Installation
+            Secure Your Vehicle Now
           </a>
         </div>
       </div>

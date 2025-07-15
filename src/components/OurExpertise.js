@@ -72,12 +72,7 @@ export default function OurExpertise() {
               className="rounded-lg mx-auto m-auto"
             />
             <h3 className="text-xl font-bold mb-2 mt-2">
-              <a
-                href="/products/ghost-immobiliser"
-                className="text-white hover:underline hover:text-blue-500"
-              >
-                Ghost® Immobiliser System
-              </a>
+              Ghost® Immobiliser System
             </h3>
             <p className="text-sm mb-3">
               The ultimate protection against key-cloning and relay theft. This
@@ -87,6 +82,12 @@ export default function OurExpertise() {
             <p className="text-xs font-semibold">
               • Insurance-approved • Undetectable • No key fobs required
             </p>
+            <a
+              href="/products/ghost-immobiliser"
+              className="text-blue-300 hover:underline text-xs mt-2 hover:text-sm"
+            >
+              Learn More About Ghost Immobiliser
+            </a>
           </motion.div>
 
           {/* Card 2 */}
@@ -106,12 +107,7 @@ export default function OurExpertise() {
               className="rounded-lg mx-auto m-auto"
             />
             <h3 className="text-xl font-bold mt-2 mb-2">
-              <a
-                href="/products/gps-tracker"
-                className="text-white hover:underline hover:text-blue"
-              >
-                Professional GPS Tracking
-              </a>
+              Professional GPS Tracking
             </h3>
             <p className="text-sm mb-3">
               Real-time vehicle location monitoring with Meta Trak, GPS Live,
@@ -122,6 +118,13 @@ export default function OurExpertise() {
               • 24/7 monitoring • Remote immobilization • Theft recovery
               assistance
             </p>
+
+            <a
+              href="/products/gps-tracker"
+              className="text-blue-300 hover:underline text-xs  hover:text-blue"
+            >
+              Compare gps tracking system
+            </a>
           </motion.div>
 
           {/* Card 3 */}
@@ -153,6 +156,12 @@ export default function OurExpertise() {
               • London-wide coverage • Fixed 3-hour installation • Flexible
               scheduling
             </p>
+            <a
+              href="/products/gps-tracker"
+              className="text-blue-300 hover:underline text-xs  hover:text-blue"
+            >
+              Check Service Area Coverage
+            </a>
           </motion.div>
         </div>
       </div>

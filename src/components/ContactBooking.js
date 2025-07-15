@@ -9,14 +9,14 @@ export default function ContactBooking() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className=" bg-[#06202B] min-h-screen flex items-center py-20 px-6"
+      className=" animated-gradient min-h-screen flex items-center py-20 px-6"
     >
       <div className="container mx-auto max-w-4xl">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl font-bold mb-12 text-center"
+          className="text-4xl text-white font-bold mb-12 text-center"
         >
           Contact & Booking Information
         </motion.h2>
@@ -36,6 +36,14 @@ export default function ContactBooking() {
                 appointment
               </li>
             </ul>
+            <div className="mt-10">
+              <a
+                href="https://cal.com/securemyride"
+                className="bg-gradient-to-r from-red-400 to-blue-500 hover:bg-blue-700 px-8 py-4 rounded-full text-white font-bold"
+              >
+                Schedule installation
+              </a>
+            </div>
           </div>
 
           {/* Contact & Booking Details */}

@@ -24,7 +24,7 @@ export default function Newsletter() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className=" text-white bg-[#213448] min-h-screen flex flex-col items-center py-20 px-6"
+      className=" text-white bg-[#393E46] min-h-screen flex flex-col items-center py-20 px-6"
     >
       <div className="container mx-auto max-w-4xl text-center">
         <motion.h2
@@ -65,7 +65,7 @@ export default function Newsletter() {
           <div className="">
             <a
               href="https://cal.com/securemyride"
-              className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full text-white font-bold"
+              className="bg-gradient-to-r from-red-400 to-blue-500 hover:bg-blue-700 px-8 py-4 rounded-full text-white font-bold"
             >
               Book Appointment
             </a>

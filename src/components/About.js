@@ -82,6 +82,17 @@ export default function About() {
             </p>
           </motion.div>
         </div>
+        <motion.a
+          href="https://cal.com/onish12"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gradient-to-r from-red-400 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transform transition duration-300 hover:scale-105"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.2, ease: 'easeOut' }}
+        >
+          Get your Quote today
+        </motion.a>
       </div>
     </motion.section>
   );
