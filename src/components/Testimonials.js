@@ -10,7 +10,7 @@ export default function Testimonials() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className="bg-black min-h-screen flex items-center py-20 px-6"
+      className="animated-gradient justify-center items-center py-20 px-6"
     >
       <div className="container mx-auto text-center">
         {/* Section Title */}

@@ -27,7 +27,7 @@ export default function OurExpertise() {
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
       //   bg-gradient-to-br from-blue-300 to-purple-300
-      className="bg-black py-20 px-6 min-h-screen flex items-center"
+      className="animated-gradient py-20 px-6 min-h-screen flex items-center"
     >
       <div className="container mx-auto text-center relative text-white">
         {/* Section Title */}
@@ -72,7 +72,12 @@ export default function OurExpertise() {
               className="rounded-lg mx-auto m-auto"
             />
             <h3 className="text-xl font-bold mb-2 mt-2">
-              Ghost® Immobiliser System
+              <a
+                href="/products/ghost-immobiliser"
+                className="text-white hover:underline hover:text-blue-500"
+              >
+                Ghost® Immobiliser System
+              </a>
             </h3>
             <p className="text-sm mb-3">
               The ultimate protection against key-cloning and relay theft. This
@@ -101,7 +106,12 @@ export default function OurExpertise() {
               className="rounded-lg mx-auto m-auto"
             />
             <h3 className="text-xl font-bold mt-2 mb-2">
-              Professional GPS Tracking
+              <a
+                href="/products/gps-tracker"
+                className="text-white hover:underline hover:text-blue"
+              >
+                Professional GPS Tracking
+              </a>
             </h3>
             <p className="text-sm mb-3">
               Real-time vehicle location monitoring with Meta Trak, GPS Live,

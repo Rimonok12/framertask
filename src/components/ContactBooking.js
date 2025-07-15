@@ -9,7 +9,7 @@ export default function ContactBooking() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className=" text-white min-h-screen flex items-center py-20 px-6"
+      className=" bg-[#06202B] min-h-screen flex items-center py-20 px-6"
     >
       <div className="container mx-auto max-w-4xl">
         <motion.h2

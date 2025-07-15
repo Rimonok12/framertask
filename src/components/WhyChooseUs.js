@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className=" text-white min-h-screen flex items-center py-20 px-6"
+      className=" bg-[#1B3C53] min-h-screen flex items-center py-20 px-6"
     >
       <div className="container mx-auto max-w-5xl text-center">
         <motion.h2

@@ -10,7 +10,7 @@ export default function HowItWorks() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className="bg-black relative min-h-screen flex items-center py-20 px-6"
+      className="bg-[#393E46] relative  min-h-screen justify-center items-center py-20 px-6"
     >
       <div className="container text-white relative mx-auto text-center max-w-5xl">
         {/* Section Title */}
@@ -104,6 +104,24 @@ export default function HowItWorks() {
               online.
             </p>
           </motion.div>
+        </div>
+      </div>
+
+      <div className="container text-white  mx-auto mt-25 text-center max-w-5xl">
+        <motion.h2 className="text-3xl font-bold mb-6 text-white">
+          Ready to secure your vehicle?
+        </motion.h2>
+        <p className="text-white/80 mb-8">
+          Book your professional installation today with our certified experts.
+        </p>
+
+        <div className="mt-10">
+          <a
+            href="https://cal.com/securemyride"
+            className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full text-white font-bold"
+          >
+            Schedule Your Installation
+          </a>
         </div>
       </div>
     </motion.section>
