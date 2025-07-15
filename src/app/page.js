@@ -34,7 +34,7 @@ export default function Home() {
           property="og:description"
           content="Protect your vehicle with SecureMyRide's expert mobile installation of Ghost immobilisers, GPS trackers, and anti-theft devices. Serving all London boroughs."
         />
-        <meta property="og:url" content="https://framer-task.vercel.app/" />
+        <meta property="og:url" content="https://framertask.vercel.app" />
       </Head>
 
       <HeroSection />
