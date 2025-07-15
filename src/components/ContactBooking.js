@@ -46,7 +46,6 @@ export default function ContactBooking() {
             </div>
           </div>
 
-          {/* Contact & Booking Details */}
           <div className="bg-white/10 backdrop-blur-lg border border-white/30 rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-semibold mb-6">
               Contact & Booking Details

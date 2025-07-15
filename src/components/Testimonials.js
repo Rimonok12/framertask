@@ -13,7 +13,6 @@ export default function Testimonials() {
       className="animated-gradient justify-center items-center py-20 px-6"
     >
       <div className="container mx-auto text-center">
-        {/* Section Title */}
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -23,9 +22,7 @@ export default function Testimonials() {
           What Our Customers Say
         </motion.h2>
 
-        {/* Testimonial Cards (manual like OurExpertise) */}
         <div className="flex flex-wrap justify-center gap-12">
-          {/* Card 1 */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -54,7 +51,6 @@ export default function Testimonials() {
             </p>
           </motion.div>
 
-          {/* Card 2 */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -80,7 +76,6 @@ export default function Testimonials() {
             </p>
           </motion.div>
 
-          {/* Card 3 */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -109,7 +104,6 @@ export default function Testimonials() {
           </motion.div>
         </div>
 
-        {/* ⭐ Rating */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
